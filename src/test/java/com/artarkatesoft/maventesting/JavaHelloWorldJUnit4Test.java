@@ -1,13 +1,13 @@
 package com.artarkatesoft.maventesting;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class JavaHelloWorldJUnit5Test {
+public class JavaHelloWorldJUnit4Test {
 
     @Test
-    void getMessage() {
+    public void getMessage() {
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
         assertEquals("Hello Art", javaHelloWorld.getMessage());
 
